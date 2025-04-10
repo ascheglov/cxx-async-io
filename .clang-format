@@ -1,0 +1,12 @@
+Language: Cpp
+BasedOnStyle: Google
+
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortBlocksOnASingleLine: Always
+BinPackParameters: true
+AlwaysBreakTemplateDeclarations: No # Will be renamed in clang-19
+DerivePointerAlignment: false
+InsertNewlineAtEOF: true
+PackConstructorInitializers: BinPack
